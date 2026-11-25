@@ -1,0 +1,55 @@
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+build/
+out/
+cmake-build-*/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# PS2 game files, ISOs, BIOS, and dumps (do not commit copyrighted data)
+*.iso
+*.ISO
+*.bin
+*.BIN
+*.cue
+*.chd
+*.elf
+*.ELF
+*.irx
+*.IRX
+SYSTEM.CNF
+SLPS_*
+SLUS_*
+SLES_*
+SCPS_*
+SCUS_*
+SCES_*
+game/
+disc/
+iso/
+assets/
+dumps/
+bios/
+
+# Generated recompilation output
+generated/
