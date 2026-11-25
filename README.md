@@ -30,3 +30,9 @@ ISO extracted into `disc/` and main binary inspected. Ready to analyze function 
 - Lift the PS2 Emotion Engine executable to portable C/C++.
 - Implement lightweight HLE (High-Level Emulation) shims for EE kernel syscalls, IOP peripherals (controller, memory card, CDVD, SPU2), and Graphics Synthesizer / VU rendering.
 - Build and run natively without full-system CPU emulation.
+
+## Credits
+
+- [PS2Recomp](https://github.com/ran-j/PS2Recomp) by `ran-j` — PS2 static recompiler, runtime, and Ghidra export tooling.
+- [ghidra-emotionengine-reloaded](https://github.com/chaoticgd/ghidra-emotionengine-reloaded) by `chaoticgd` — Ghidra processor module and ELF loader for the PS2 Emotion Engine.
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra) — Software reverse-engineering framework used for headless binary analysis.

@@ -53,3 +53,5 @@ bios/
 
 # Generated recompilation output
 generated/
+tools/
+
