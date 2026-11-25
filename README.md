@@ -23,7 +23,7 @@ Sandboxed **PS2Recomp** + **Ghidra** (`ghidra-emotionengine-reloaded`) setup com
 - [x] Analyze binary (functions, jump tables, overlays, SDK symbols)
 - [ ] **Milestone 1 — Boot the Game**
   - [x] Lift `SLPS_254.41` to C++ via `ps2_recomp`
-  - [ ] Build native runner (`ps2EntryRunner`) and resolve initial boot/SIF/IOP/GS calls
+  - [x] Build native runner (`ps2EntryRunner`) and resolve initial boot/SIF/IOP/GS calls
   - [ ] Reach initial boot / title screen
 - [ ] Handle `.ERX` overlay modules (`MISN/`, `PLAYER00/`, `PLAYER20/`)
 - [ ] Implement remaining EE kernel, IOP, and GS/VU HLE shims
